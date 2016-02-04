@@ -14,5 +14,5 @@ It does the following:
 
 This image expects the following files to be present:
 
-* `/var/run/conveyor/.dockercfg`: .dockercfg file for credentials to use when pulling.
+* `/var/run/conveyor/.dockercfg`: `.dockercfg` file for credentials to use when pulling.
 * `/var/run/conveyor/.ssh`: Should contain an `id_rsa` and `id_rsa.pub` file which gives access to pull GitHub repos.
