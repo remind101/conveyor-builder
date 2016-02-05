@@ -11,7 +11,7 @@ RUN apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 581
 RUN mkdir -p /etc/apt/sources.list.d && \
     echo deb https://apt.dockerproject.org/repo ubuntu-trusty main > /etc/apt/sources.list.d/docker.list
 RUN apt-get update && apt-get install -q -y \
-    docker-engine=1.8.1-0~trusty
+    docker-engine=1.10.0-0~trusty
 ADD ./bin/build /bin/build
 ADD ./bin/wrapdocker /bin/wrapdocker
 
