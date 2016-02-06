@@ -8,9 +8,9 @@ test: bootstrap
 	docker run --privileged=true \
 		--volumes-from=data \
 		-e CACHE=off \
-		-e REPOSITORY=remind101/acme-inc \
+		-e REPOSITORY=remind101/conveyor-builder-test \
 		-e BRANCH=master \
-		-e SHA=d4c832fcc95974bd017567b44868194a38b3b03a \
+		-e SHA=01ac59b40c069a0114d9aab8bde096527cbab2f8 \
 		-e DRY=true \
 		${IMAGE}
 
